@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/ng-algoliasearch/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ng-algoliasearch/tsconfig.spec.json"
+    }
+]
 }
