@@ -30,19 +30,17 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/ng-algoliasearch/tsconfig.lib.json",
-              "projects/ng-algoliasearch/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/ng-algoliasearch/**/*.ts",
+              "projects/ng-algoliasearch/**/*.html"
             ]
           }
         }
       }
-    }},
+    }
+  },
   "cli": {
     "analytics": "a86d5718-7db4-4f98-a1aa-90ac532a161e"
   },
