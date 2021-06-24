@@ -1,12 +1,12 @@
 {
   "name": "ng-algoliasearch",
-  "version": "11.1.0",
+  "version": "12.0.5",
   "peerDependencies": {
-    "@angular/common": "^11.1.0",
-    "@angular/core": "^11.1.0",
-    "algoliasearch": "^4.8.3"
+    "@angular/common": "^12.0.5",
+    "@angular/core": "^12.0.5",
+    "algoliasearch": "^4.10.2"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.3.0"
   }
 }
