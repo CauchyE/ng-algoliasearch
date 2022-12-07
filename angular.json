@@ -44,5 +44,13 @@
   "cli": {
     "analytics": "a86d5718-7db4-4f98-a1aa-90ac532a161e"
   },
-  "defaultProject": "ng-algoliasearch"
+  "defaultProject": "ng-algoliasearch",
+  "schematics": {
+    "@angular-eslint/schematics:application": {
+      "setParserOptionsProject": true
+    },
+    "@angular-eslint/schematics:library": {
+      "setParserOptionsProject": true
+    }
+  }
 }
